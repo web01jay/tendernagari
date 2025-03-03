@@ -388,7 +388,7 @@ button.navbar-toggler i:before {
 }
 button.navbar-toggler i.flaticon-close-1:before{font-size: 15px !important;}
 button.navbar-toggler i {
-	background: #994fff;
+	background: #933638;
 	color: #fff;
     border-radius: 6px;
     width: 30px;
@@ -842,15 +842,15 @@ img.banner-small-img {
 		font-size: 22px;
 		line-height: 30px;
 	}
-	h1 {
+	h1, h1 span {
 		font-size: 27px !important;
 		line-height: 35px;
 	}
 	.slider-content.p-5.w-75 {
 		width: 100% !important;
 	}	
-    h2 {
-        font-size: 30px;
+    h2, h2 span {
+        font-size: 30px !important;
 	}
 	h4{
 		font-size:20px;
