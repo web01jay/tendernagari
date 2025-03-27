@@ -50,7 +50,7 @@ $(document).ready(function () {
       nav:true,
         autoplayTimeout: 4000,
         smartSpeed: 450,
-      navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+      navText: ['<i class="fa fa-angle-left i-marun"></i>','<i class="fa fa-angle-right i-marun"></i>'],
         responsive: {
             0: {
                 items: 1
@@ -73,7 +73,7 @@ $(document).ready(function () {
       nav:true,
       animateOut: 'fadeOut',
         autoplayTimeout: 1000,
-      navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+      navText: ['<i class="fa fa-angle-left i-marun"></i>','<i class="fa fa-angle-right i-marun"></i>'],
     });
     /*====================== web slider ====================== */
     

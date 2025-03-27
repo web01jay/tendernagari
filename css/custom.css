@@ -774,7 +774,7 @@ img.banner-small-img {
     border-radius: 50%;
     object-fit: cover;
     object-position: top;
-    border: 2px solid #994fff;
+    border: 2px solid #933638;
     padding: 6px;
 }
 .team-slide .owl-nav {
@@ -783,13 +783,18 @@ img.banner-small-img {
 .team-slide button.owl-prev {
     position: absolute;
     top: 4%;
-    left: 40%;
+    left: 20%;
     transform: translate(0, 100%);
 }
+.team-slide button.owl-prev i::before,
+.team-slide button.owl-next i::before{
+	color: #933638 !important;
+}
+
 .team-slide button.owl-next {
 	position: absolute;
     top: 4%;
-    right: 40%;
+    right: 20%;
     transform: translate(0, 100%);
 }
 .owl-nav i:before {
